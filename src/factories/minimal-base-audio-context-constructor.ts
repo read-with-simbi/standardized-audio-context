@@ -68,7 +68,7 @@ export const createMinimalBaseAudioContextConstructor: TMinimalBaseAudioContextC
             return this._nativeContext.state;
         }
 
-        get nativeContext(): TNativeContext {
+        get nativeContext(): TNativeContext | undefined {
             return CONTEXT_STORE.get(<T>(<unknown>this));
         }
     };
