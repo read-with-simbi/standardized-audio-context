@@ -1,4 +1,5 @@
 *.DS_Store
-build/
+build/es2019
+build/node
 config/environment/*
 node_modules/
